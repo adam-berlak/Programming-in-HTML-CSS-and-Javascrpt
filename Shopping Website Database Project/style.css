@@ -1,0 +1,154 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+	background-color: #DBDCF0;
+	/*background-color: #C3C4DC;*/
+}
+label {
+    text-align:right;
+    font-weight:bold;
+    width:110px;
+    font-size:14px;
+    display:inline-block;
+}
+.box {
+    border:#666666 solid 1px;
+}
+#container {
+	background-color: #C8C9E1;
+	/*background-color: #A5A6C3;*/
+	box-shadow: 10px 10px 15px #9A9CBD;
+}
+
+#title {
+	background-color: #A5A6C8;
+}
+#GenericButton {
+    background-color: #8D8EAF; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    box-shadow: 5px 5px 5px #9A9CBD;
+    border-radius: 4px;
+    cursor: pointer;
+}#GenericButton:hover {
+    background-color: #A6AF8D; /* Green */
+}
+#GenericButton:active {
+  transform: translateY(2px);
+}
+#CheckoutButton {
+  border-radius: 4px;
+  width: 125px;
+  transition: all 0.5s;
+  margin: 5px;
+    background-color: #8D8EAF; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    box-shadow: 5px 5px 5px #9A9CBD;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#CheckoutButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+#CheckoutButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+#CheckoutButton:hover span {
+  padding-right: 25px;
+}
+#CheckoutButton:hover {
+  background-color: #A6AF8D; /* Green */
+  padding-right: 25px;
+}
+#CheckoutButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#SubmitButton {
+    background-color: #8D8EAF; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    box-shadow: 5px 5px 5px #9A9CBD;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#ResetButton {
+    background-color: #8D8EAF; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    box-shadow: 5px 5px 5px #9A9CBD;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#ResetButton:hover {
+    background-color: #A6AF8D; /* Green */
+}
+#ResetButton:active {
+  transform: translateY(2px);
+}
+#SignUpButton {
+    background-color: #8D8EAF; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    box-shadow: 5px 5px 5px #9A9CBD;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#EmployeeButton {
+    background-color: #8D8EAF; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#AdminButton {
+    background-color: #8D8EAF; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
